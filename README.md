@@ -1,2 +1,0 @@
-# .github
-Kerk en IT
