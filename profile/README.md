@@ -43,8 +43,8 @@ technical_background:
     "Intern - PC Construction",
   ]
   
-currently_learning: ["Angualar", "Jenkins", "LLM models"]
-hobies: ["Photographing", "Photo and Video editing", "Blogging"]
+currently_learning: ["Angualar", "LLM models"]
+hobbies: ["Photographing", "Photo and Video editing", "Blogging"]
 ```
   
 ---  
