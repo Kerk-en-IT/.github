@@ -1,19 +1,19 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&text=Kerk%20en%20IT&height=100&section=header" width="100%"/>
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&text=Kerk%20en%20IT&height=100&section=header" width="100%" />
 </p>
 
 <h1 align="center">
-  Please contact me
+    Please contact me
 </h1>
 
 <p align="center">
-<a href="https://www.facebook.com/KerkEnIt/" title="Follow me on Facebook"><img src="./facebook.png" alt="Facebook" height="50" width="50" /></a>
-<a href="https://www.instagram.com/kerk.en.it/" title="Follow me on Instagram"><img src="./instagram.png" alt="Instagram" height="50" width="50"></a>
-<a href="https://threads.net/@kerk.en.it" title="Follow me on Threads"><img src="./threads.png" alt="Threads" height="50" width="50"></a>
-<a href="https://twitter.com/kerkenit" title="Follow me on Twitter"><img src="./twitter.png" alt="X" height="50" width="50"></a>
-<a href="https://www.youtube.com/@kerkenit" title="Follow me on YouTube"><img src="./youtube.png" alt="YouTube" height="50" width="50"></a>
-<a href="https://www.linkedin.com/company/kerk-en-it/" title="Follow me on LinkedIn"><img src="./linkedin.png" alt="LinkedIn" height="50" width="50"></a>
-<a href="https://www.kerkenit.nl/" title="Visit my website"><img src="./internet.png" alt="Website" height="50" width="50"></a>
+  <a href="https://www.facebook.com/KerkEnIt/" title="Follow me on Facebook"><img src="./facebook.png" alt="Facebook" height="50" width="50" /></a>
+  <a href="https://www.instagram.com/kerk.en.it/" title="Follow me on Instagram"><img src="./instagram.png" alt="Instagram" height="50" width="50" /></a>
+  <a href="https://threads.net/@kerk.en.it" title="Follow me on Threads"><img src="./threads.png" alt="Threads" height="50" width="50" /></a>
+  <a href="https://twitter.com/kerkenit" title="Follow me on Twitter"><img src="./twitter.png" alt="X" height="50" width="50" /></a>
+  <a href="https://www.youtube.com/@kerkenit" title="Follow me on YouTube"><img src="./youtube.png" alt="YouTube" height="50" width="50" /></a>
+  <a href="https://www.linkedin.com/company/kerk-en-it/" title="Follow me on LinkedIn"><img src="./linkedin.png" alt="LinkedIn" height="50" width="50" /></a>
+  <a href="https://www.kerkenit.nl/" title="Visit my website"><img src="./internet.png" alt="Website" height="50" width="50" /></a>
 </p>
 
 ---
@@ -29,7 +29,7 @@ company: Kerk en IT
 fields_of_interests:
   [
     "Roman Catholic Church",
-	"Panama",
+    "Panama",
     "Web Development",
     "App development",
     "Home Automation",
@@ -43,8 +43,57 @@ technical_background:
     "Intern - PC Construction",
   ]
   
-currently_learning: ["Angualar", "LLM models"]
-hobbies: ["Photographing", "Photo and Video editing", "Blogging"]
+currently_learning:
+  [
+    "Angualar",
+    "LLM models"
+  ]
+hobbies:
+  [
+    "Photographing",
+    "Photo and Video editing",
+    "Blogging"
+  ]
+```
+
+---
+
+<h2> 🌅 &nbsp; Some of My Everyday Habits</h2>
+
+```php
+<?php
+$month = date('m');
+$day = date('d');
+$day_of_week = date('w');
+$activity = array('⛪️', '🙏🏽', '📿');
+if ($month >= 1 && $month <= 3) :
+	$activity[] = '✈️';
+	$activity[] = '🇵🇦';
+	$activity[] = '✍🏽';
+	$activity[] = '📷';
+	$activity[] = '🏊🏼';
+	$activity[] = '🏖️';
+	$activity[] = '🥵';
+	$activity[] = '😎';
+else :
+	$activity[] = '👨🏻‍💻';
+	$activity[] = '💭';
+	$activity[] = '📱';
+	$activity[] = '❤️‍🔥';
+	if (rand(1, 31) == $day) :
+		$activity[] = '✍🏽';
+		$activity[] = '📷';
+	endif;
+	if ($day_of_week == rand(1, 3)) :
+		$activity[] = '🏊🏼';
+	endif;
+	if ($day_of_week == 5) :
+		$activity[] = '📚';
+		$activity[] = '📿';
+	endif;
+endif;
+printf('Today I had %1$d joyful activities which consist of %2$s', count($activity), implode(', ', $activity));
+?>
 ```
   
 ---  
@@ -94,5 +143,5 @@ hobbies: ["Photographing", "Photo and Video editing", "Blogging"]
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%" />
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%" />
 </p>
